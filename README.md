@@ -11,8 +11,6 @@
 
 ## 📌 Section Overview
 
-If the Spark internals repo shows *how the engine runs underneath*, this repo is about **the destination that engine is built to serve** — the data warehouse itself: how it's designed, how data gets into it, and how it's structured so a business question turns into a fast, trustworthy query.
-
 This repository is **theory-to-practice, end to end**: it starts at the whiteboard level (*what even is a data warehouse, and why does a business need one?*), works down through the formal discipline of **data modeling** (Conceptual → Logical → Physical), lands on the industry-standard **dimensional modeling** approach (Star Schema, Fact & Dimension tables), and then proves every one of those ideas out with **real, hands-on SQL** — building an actual incremental pipeline and an actual Star Schema from scratch, bugs and all.
 
 > Most people can define "ETL" in an interview. This repo goes further — it's the difference between reciting the definition of a Star Schema and having actually built one, staged the data, hit a real copy-paste bug in a `row_number()` alias, and fixed it.
